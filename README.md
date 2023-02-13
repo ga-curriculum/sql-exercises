@@ -29,7 +29,7 @@ That is, Googling how to solve a problem. Not Googling solutions to problems.
 ```
 
 - Step 7. Write the queries requested.
- * For this lab, you are expected to use the psql command line interface. Feel free to write your queries in there and run them in psql with the \i command. It should look something like this:
+ * For this lab, you are expected to use the psql command line interface. Write your queries in the `queries.sql` file and run them in psql with the \i command. It should look something like this:
 
 ```
 $ psql sql_exercises_db
