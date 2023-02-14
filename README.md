@@ -12,6 +12,8 @@ We encourage the use of Googling to aid you in solving these problems! That's ho
 
 That is, Googling how to solve a problem. Not Googling solutions to problems.
 
+
+
 ## How to submit homework
 
 ### Setup
