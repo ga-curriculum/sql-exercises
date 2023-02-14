@@ -20,6 +20,26 @@ That is, Googling how to solve a problem. Not Googling solutions to problems.
 
 - Step 1. Fork the repository
 - Step 2. Clone your fork
+- Step 3. Open pgAdmin and find the Database Menu.
+- Step 4. Right click on Database and select Create Database. Name this Database `sql-exercises` and hit save.
+- Step 5. Open the PSQL tool.
+- Step 6. Within the PSQL cli use the import (\i) psql command to create each step's table and seed its data. **This will need to be repeated for each step.**
+  * Make sure of the correct path on your device and run this command at the beginning of each step. 
+
+```
+\i /Users/<yourname>/2023/abbottlabs/labs/sql-exercises/step-1/schema.sql
+```
+
+- Step 7. Write the queries requested.
+ * For this lab, you are expected to use the psql command line interface. Write your queries in the `queries.sql` file and run them in psql with the \i command. It should look something like this:
+
+```
+$ psql sql_exercises_db
+psql (9.6.1)
+Type "help" for help.
+
+sql_exercises_db=# \i queries.sql
+```
 
 ### Submitting work
 
